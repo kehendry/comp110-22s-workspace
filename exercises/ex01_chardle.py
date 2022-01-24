@@ -11,7 +11,7 @@ if len(special_word) != 5:
 
 character: str = input("Enter a single character: ")
 
-if len(character) > 1: 
+if len(character) != 1: 
     print("Error: Character must be a single character.")
     exit()
 
