@@ -2,9 +2,6 @@
 
 __author__ = "730233362"
 
-from operator import index
-
-
 special_word: str = input("Enter a 5-character word: ")
 
 
@@ -51,3 +48,4 @@ else:
                     print("5 instances of " + character + " found in " + special_word)
                 else: 
                     print("No instances of " + character + " found in " + special_word)
+SystemExit
