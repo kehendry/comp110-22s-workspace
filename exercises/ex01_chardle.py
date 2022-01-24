@@ -6,12 +6,14 @@ special_word: str = input("Enter a 5-character word: ")
 
 
 if len(special_word) != 5:
-    exit("Error: Word must contain 5 characters")
+    print("Error: Word must contain 5 characters")
+    exit()
 
 character: str = input("Enter a single character: ")
 
 if len(character) > 1: 
-    exit("Error: Character must be a single character.")
+    print("Error: Character must be a single character.")
+    exit()
 
 print("Searching for " + character + " in " + special_word)
 
