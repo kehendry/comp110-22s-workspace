@@ -33,7 +33,7 @@ while index < len(secret_word):
             emoji_guess = str(f"{ YELLOW_BOX }") 
         else:
             emoji_guess = str(f"{ WHITE_BOX }")
-    print(emoji_guess, end=" ")
+    print(emoji_guess, end="")
     index = index + 1
 
 print(end='\n')
