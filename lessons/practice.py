@@ -1,10 +1,23 @@
-"""Practice"""
+from turtle import Turtle, colormode, done
+leo: Turtle = Turtle()
 
-attractive: str = input("How attractive is Ben Gorman on a scale of 1-10? ")
+leo.color(224, 256, 208)
+leo.back(90)
+leo.left(90)
+leo.forward(90)
+leo.right(90)
+leo.forward(90)
+leo.left(90)
+leo.back(90)
+
+leo.right(180)
+leo.back(90)
+leo.left(90)
+leo.forward(90)
+leo.right(90)
+leo.forward(90)
+leo.left(90)
+leo.back(90)
 
 
-if attractive != "10":
-    print("Nope. Try again!")
-else: 
-    print("Heck yeah.")
-
+done()
